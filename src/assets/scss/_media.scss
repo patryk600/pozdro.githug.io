@@ -7,24 +7,38 @@
 }
 
 .navbar {
-  margin: .5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  height: 2rem;
+  width: 100vw;
+  min-height: 4rem;
+
   &__item {
     text-align: center;
     width: 3rem;
     height: 1.5rem;
   }
+  &__item:last-child {
+    margin-right: 1rem;
+    @include sm {
+      margin-right: 2rem;
+    }
+  }
   &__link {
     text-decoration: none;
     color: $dark;
     font-size: 2em;
+    @include sm {
+      font-size: 3rem;
+
+    }
     img{
       max-width: 50px;
       height: auto;
+      @include sm {
+        max-width: 60px;
+      }
 
     }
 

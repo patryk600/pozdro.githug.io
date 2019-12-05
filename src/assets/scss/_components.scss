@@ -60,29 +60,7 @@
     font-size: 7rem;
     cursor: pointer;
   }
-  .question:hover {
-    color: $light;
-    background-color: black;
-    width: 150px;
-    height: 150px;
-    cursor: pointer;
-    transition: background-color, color .4s ease-in-out;
-  }
-  .yt {
-    text-align: center;
-    font-size: 7rem;
-    width: 150px;
-    color: #c4302b;
-    height: 150px;
-    cursor: pointer;
-    transition: background-color, color .4s ease-in-out;
 
-  }
-  .yt:hover {
-    cursor: pointer;
-    color: $light;
-    background-color: $yt;
-    width: 150px;
-    height: 150px;
-  }
+
+
 }
