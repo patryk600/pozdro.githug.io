@@ -12,7 +12,7 @@
                     <li class="li">Krytykujesz</li>
                     <li class="li">Analizujesz opinie innych</li>
                     <li class="li ">Bierzesz wszystko do siebie  <div class="btn-box">
-                        <a href="/zasada" class="btn-ph" >Yep..!</a>
+                        <router-link to="/zasada" class="btn-ph" >Yep..!</router-link>
                     </div></li>
                 </ol>
             </div>

@@ -6,14 +6,10 @@
         </header>
         <main>
             <div class="ph-wrapper">
-                <ol class="ph-wrapper__list" start="6">
-                    <li class="li">Nie osadzaj innych</li>
-                    <li class="li">Nie oceniaj</li>
-                    <li class="li">Nie krytykuj</li>
-                    <li class="li ">Nie analizuj opinii innych<div class="btn-box">
-                        <button class="btn-ph">Yep..!</button>
-                    </div></li>
+                <ol class="ph-wrapper__list" start="10">
+                    <li class="li">Nie bierz niczego do siebie!</li>
                 </ol>
+                <h2 class="primery">DOPIERO TERAZ MASZ.. ZASADY!</h2>
             </div>
         </main>
     </div>

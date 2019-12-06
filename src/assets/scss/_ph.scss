@@ -83,7 +83,9 @@
 
   }
 }
-.btn-ph {
+@mixin btn {
+  color: $dark;
+  text-decoration: none;
   display: flex;
   justify-items: flex-start;
   justify-content: center;
@@ -99,7 +101,17 @@
   @include sm {
 
   }
+}
+
+
+.btn-ph {
+  a {
+
+  }
+  @include btn;
+
   &:hover{
+
     &:after{
       content: "masz odczyn kwasowy";
       display: flex;
@@ -119,11 +131,35 @@
 
       }
     }
-
-
-
-
   }
+
+}
+
+
+.btn-zasada {
+  @include btn;
+  &:hover{
+    &:after{
+      content: "masz odczyn zasadowy!";
+      display: flex;
+      min-width: 300px;
+      height: 35px;
+      position: relative;
+      background-color: $light;
+      border: solid 1px black;
+      box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.56);
+      //justify-content: center;
+      top: -70px;
+      @include sm {
+
+        top: 60px;
+        left: -40%;
+        position: absolute;
+
+      }
+    }
+  }
+
 }
 //.btn-ph:hover {
 //  display: block;

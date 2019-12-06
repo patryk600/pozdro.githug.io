@@ -33,6 +33,14 @@ const routes = [
     // this generates a separate chunk (zasada.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "zasada" */ '../views/zasada.vue')
+  },
+  {
+    path: '/zasady',
+    name: 'zasady',
+    // route level code-splitting
+    // this generates a separate chunk (zasady.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "zasady" */ '../views/zasady.vue')
   }
 ]
 
@@ -43,3 +51,5 @@ const router = new VueRouter({
 })
 
 export default router
+
+

@@ -6,12 +6,12 @@
         </header>
         <main>
             <div class="ph-wrapper">
-                <ol class="ph-wrapper__list">
+                <ol start="6" class="ph-wrapper__list">
                     <li class="li">Nie osadzaj innych</li>
                     <li class="li">Nie oceniaj</li>
                     <li class="li">Nie krytykuj</li>
-                    <li class="li ">Nie analizuj opinii innych<div class="btn-box">
-                        <button class="btn-ph">Yep..!</button>
+                    <li class="li ">Nie analizuj opinii innych..<div class="btn-box">
+                        <router-link to="/zasady" class="btn-zasada">Yep..!</router-link>
                     </div></li>
                 </ol>
             </div>
