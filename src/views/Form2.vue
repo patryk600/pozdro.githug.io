@@ -7,12 +7,11 @@
         <main>
             <div class="ph-wrapper">
                 <ol class="ph-wrapper__list">
-                    <li class="li">Osądzasz innych</li>
-                    <li class="li">Oceniasz innych</li>
-                    <li class="li">Krytykujesz</li>
-                    <li class="li">Analizujesz opinie innych</li>
-                    <li class="li ">Bierzesz wszystko do siebie  <div class="btn-box">
-                        <a href="/zasada" class="btn-ph" >Yep..!</a>
+                    <li class="li">Nie osadzaj innych</li>
+                    <li class="li">Nie oceniaj</li>
+                    <li class="li">Nie krytykuj</li>
+                    <li class="li ">Nie analizuj opinii innych<div class="btn-box">
+                        <button class="btn-ph">Yep..!</button>
                     </div></li>
                 </ol>
             </div>
