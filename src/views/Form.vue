@@ -11,7 +11,7 @@
                     <li class="li">Oceniasz innych</li>
                     <li class="li">Krytykujesz</li>
                     <li class="li">Analizujesz opinie innych</li>
-                    <li class="li ">Bierzesz wszystko do siebie  <div class="btn-box">
+                    <li class="li ">Bierzesz wszystko do siebie..<div class="btn-box">
                         <router-link to="/zasada" class="btn-ph" >Yep..!</router-link>
                     </div></li>
                 </ol>
