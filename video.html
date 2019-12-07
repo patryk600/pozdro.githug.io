@@ -27,35 +27,65 @@
             width: 850px;
             height: 480px;
         }
-        a {
-            display: block;
-            position: absolute;
-            top: 20px;
-            right: 30px;
-        }
+        /*a {*/
+        /*    display: block;*/
+        /*    position: absolute;*/
+        /*    top: 20px;*/
+        /*    right: 30px;*/
+        /*}*/
         img {
             width: 75px;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            /*padding-top: px;*/
+            padding-right: 30px;
+            align-items: baseline;
+        }
+        .item{
+            display: flex;
+            max-width: 100px;
+            text-decoration: none;
+            color: black;
+            /*font-size: 52px;*/
+
+
+        }
+        span{
+            position: relative;
+            font-size: 4em;
+            padding-right: 20px;
         }
         @media (max-width: 500px) {
             a {
                 position: static;
             }
-            img {
-                display: block;
-                float: right;
-                margin: 15px;
-            }
+            /*img {*/
+            /*    display: block;*/
+            /*    float: right;*/
+            /*    margin: 15px;*/
+            /*}*/
             div {
                 position: static !important;
                 display: inline;
             }
+
         }
     </style>
 </head>
 <body>
-<a href="https://www.youtube.com/channel/UCOB2dfn9MXlBfK51fnEJlhw">
-    <img src="youtube.png" alt="YouTube">
-</a>
+<nav class="navbar">
+    <a class="item" href="https://www.youtube.com/channel/UCOB2dfn9MXlBfK51fnEJlhw">
+        <span>?</span>
+    </a>
+    <a class=" " href="https://www.youtube.com/channel/UCOB2dfn9MXlBfK51fnEJlhw">
+        <img src="youtube.png" alt="YouTube">
+    </a>
+
+</nav>
+
 <div class="container">
     <iframe src="https://www.youtube.com/embed/ShfpBatcrUs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
