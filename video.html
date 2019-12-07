@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pozdro Hejt</title>
+    <style>
+        body {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 95%;
+            max-width: 95%;
+            margin: 10px 0;
+            text-align: center;
+        }
+        iframe {
+            border: solid 1px grey;
+            max-width: 100%;
+            width: 850px;
+            height: 480px;
+        }
+        a {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+        }
+        img {
+            width: 75px;
+        }
+        @media (max-width: 500px) {
+            a {
+                position: static;
+            }
+            img {
+                display: block;
+                float: right;
+                margin: 15px;
+            }
+            div {
+                position: static !important;
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body>
+<a href="https://www.youtube.com/channel/UCOB2dfn9MXlBfK51fnEJlhw">
+    <img src="youtube.png" alt="YouTube">
+</a>
+<div class="container">
+    <iframe src="https://www.youtube.com/embed/ShfpBatcrUs?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
