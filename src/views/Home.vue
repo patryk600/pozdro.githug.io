@@ -1,10 +1,12 @@
 <template>
     <div class="conteinar">
-        <div class="hero">
-            <a class="hero__link" href="/media">
-                <img  class="hero__img" src="../assets/img/emoji.png" />
+        <div class="columns">
+            <div class="column center">
+                <a class="hero__link" href="/media">
+                    <img  class="hero__img" src="../assets/img/emoji.png" />
 
-            </a>
+                </a>
+            </div>
         </div>
     </div>
 </template>

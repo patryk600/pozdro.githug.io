@@ -5,7 +5,11 @@ $light: #ECF0F1;
 $primery: #F9B514;
 $white: #fff;
 
-.primery {
+.primary {
+  color: $primery!important;
+}
+
+.p {
   color: $primery;
   text-align: center;
 }

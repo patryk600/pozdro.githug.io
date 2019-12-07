@@ -1,11 +1,8 @@
 <template>
-    <div class="grid">
-        <header class="ph-hero">
-            <h1><span>P</span>ozdro<span>h</span>ejt</h1>
-            <p>A ty jakie masz <strong>Ph?</strong></p>
-        </header>
+    <div class="container">
+        <form-hader/>
         <main>
-            <div class="ph-wrapper">
+            <div class="content ph-wrapper">
                 <ol class="ph-wrapper__list">
                     <li class="li">Osądzasz innych</li>
                     <li class="li">Oceniasz innych</li>
@@ -21,4 +18,13 @@
 
 
 </template>
+<script>
+    import formHader from "../components/Header.vue"
+    export default {
+        name: "form",
+        components: {
+            formHader
+    }
+    }
+</script>
 

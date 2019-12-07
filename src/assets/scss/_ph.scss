@@ -40,11 +40,9 @@
 
 
 .ph-wrapper {
-  display: grid;
-  grid-template-rows: 2fr 2fr;
-  align-items: center;
+
   font-size: 20px;
-  margin-right: 30vw;
+  margin-left: 1rem;
   //padding-top: 8rem;
   &__list {
     margin-left: 3rem;
@@ -53,11 +51,12 @@
     padding-top: 0;
 
 
+
   }
   @include md {
     //width: 80vh;
     font-weight: 200;
-    //margin-right: 30vw;
+    margin-left: 10vw;
     padding-top: 9rem;
     font-size: 2em;
 
