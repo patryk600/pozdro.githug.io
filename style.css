@@ -11,24 +11,74 @@ color: #000;
 }
 
 .list-ph {
-width: fit-content;;
+width: fit-content;
 }
 .btn-box {
     display: flex;
     justify-content: center;
     position: relative;
+    width: 100%;
 
 }
 .btn-zasady {
     border: 1px solid #000;
+    display: flex;
+    justify-content: center;
 
     padding: .7rem;
     margin-top: 1rem;
-    position: absolute;
+    /*position: absolute;*/
+
 }
+
+
+.btn-box1{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: max-content;
+
+}
+.btn-box1:hover:after{
+    content: "masz odczyn kwasowy";
+    /*position: relative;*/
+    display: block;
+    /*top: 60px;*/
+    width: max-content;
+    text-align: center;
+    top: 100px;
+}
+
+.btn-box2{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: max-content;
+
+}
+.btn-box2:hover:after{
+    content: "masz odczyn zasadowy..";
+    /*position: relative;*/
+    display: block;
+    /*top: 60px;*/
+    width: max-content;
+    text-align: center;
+    top: 100px;
+}
+
+
+
+
 .zasady {
     margin-top: 2rem;
     text-align: center;
+    /*margin-left: 4rem;*/
 }
 
 
@@ -41,6 +91,14 @@ width: fit-content;;
     .btn-zasady {
     right: -40%;
 }
+    .btn-box1 {
+        position: relative;
+        right: -300px;
+    }
+    .btn-box2 {
+        position: relative;
+        right: -300px;
+    }
 
 
 }
