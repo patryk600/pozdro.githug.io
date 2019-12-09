@@ -43,7 +43,7 @@ width: fit-content;
 
 }
 .btn-box1:hover:after{
-    content: "masz odczyn kwasowy";
+    content: "Masz odczyn kwasowy";
     /*position: relative;*/
     display: block;
     /*top: 60px;*/
@@ -63,7 +63,7 @@ width: fit-content;
 
 }
 .btn-box2:hover:after{
-    content: "masz odczyn zasadowy..";
+    content: "Masz odczyn zasadowy!";
     /*position: relative;*/
     display: block;
     /*top: 60px;*/
