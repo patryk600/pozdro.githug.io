@@ -32,6 +32,7 @@
 <form class="form form-color form-color1">
     <input type="color" class="input-color">
     <input type="hidden" id="hex">
+    <p id="name" style="text-align: center; font-size: 25px;"></p>
     <div class="color-div" > Wybierz kolor </div>
 
 </form>
@@ -43,14 +44,19 @@
     let input = form.querySelector('.input-color');
     let title = document.querySelector(".orange");
     let zasady = document.querySelector(".zasady");
+    let nameColor =document.querySelector('#name');
+
     console.log(title);
 
     let hex = document.querySelector('#hex');
     input.addEventListener('change', function() {
         let color = input.value;
-        hex.value = color+"!important";
-        title.style.color = color;
+        let name = color;
+
         zasady.style.color = color;
+        hex.value = color+"!important";
+        nameColor.innerHTML = name;
+        title.style.color = color;
 
 
 
