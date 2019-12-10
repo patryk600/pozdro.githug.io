@@ -29,8 +29,33 @@
             </ol>
             <h3 class="title orange is-size-2 zasady">DOPIERO TERAZ MASZ.. ZASADY!</h3>
         </div>
-    </main>
-</div>
+<form class="form form-color form-color1">
+    <input type="color" class="input-color">
+    <input type="hidden" id="hex">
+    <div class="color-div" > Wybierz kolor </div>
 
+</form>
+    </main>
+
+</div>
+<script>
+    let form = document.querySelector('.form-color');
+    let input = form.querySelector('.input-color');
+    let title = document.querySelector(".orange");
+    let zasady = document.querySelector(".zasady");
+    console.log(title);
+
+    let hex = document.querySelector('#hex');
+    input.addEventListener('change', function() {
+        let color = input.value;
+        hex.value = color+"!important";
+        title.style.color = color;
+        zasady.style.color = color;
+
+
+
+    });
+
+</script>
 </body>
 </html>
