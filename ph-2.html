@@ -30,7 +30,7 @@
             <h3 class="title orange is-size-2 zasady">DOPIERO TERAZ MASZ.. ZASADY!</h3>
         </div>
 <form class="form form-color form-color1">
-    <input type="color" class="input-color">
+    <input type="text" class="input-color">
     <input type="hidden" id="hex">
     <p id="name" style="text-align: center; font-size: 25px;"></p>
     <div class="color-div" > Wybierz kolor </div>
@@ -54,7 +54,7 @@
         let name = color;
 
         zasady.style.color = color;
-        hex.value = color+"!important";
+        hex.value = color
         nameColor.innerHTML = name;
         title.style.color = color;
 
