@@ -43,7 +43,7 @@ width: fit-content;
 
 }
 .btn-box1:hover:after{
-    content: "Masz odczyn kwasowy";
+    content: "Twój odczyn jest kwaśny";
     /*position: relative;*/
     display: block;
     /*top: 60px;*/
